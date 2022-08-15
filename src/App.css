@@ -5,6 +5,34 @@
   font-family: 'Almarai', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #471601;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+.order-button {
+  color: white;
+  font-size: 20px;
+  height: 40;
+  width: 80;
+  background-color: orange;
+  border-radius: 50px;
+  border: none;
+  border-bottom: 5px solid #471601;
+  padding: 10px 20px;
+  font-family: 'Almarai', sans-serif;
+}
+
+.order-button:hover {
+  background-color: #471601;
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

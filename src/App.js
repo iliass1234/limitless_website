@@ -19,12 +19,12 @@ function App() {
         }}>
           <h1 style={{ fontSize: 40, marginBottom: 0, color: '#471601' }}>التصميم هو <span style={{ color: 'darkorange', fontSize: 50 }}>السر</span></h1>
           <h2 style={{ color: '#471601' }}>للاعمال و المشاريع الناجحة</h2>
-          <button style={styles.orderButton}> now </button>
+          <button className='order-button'> اطلب الان </button>
         </div>
-        <img style={{ margin: '40px 0px', backgroundColor: 'transparent', minWidth: 100, flex: '2 1 200px', maxWidth: 600 }} src={LandingSvgImg} alt={'limitless graphics'} />
-      </WideCard>
+        <img style={{ marginTop: 40, backgroundColor: 'transparent', minWidth: 100, flex: '2 1 200px', maxWidth: 600 }} src={LandingSvgImg} alt={'limitless graphics'} />
+      </WideCard >
 
-    </div>
+    </div >
   );
 }
 
@@ -36,7 +36,8 @@ const styles = {
     backgroundColor: 'orange',
     border: 'none',
     borderRadius: 50,
-    borderBottom: '5px solid #471601'
+    borderBottom: '5px solid #471601',
+    fontFamily: 'Almarai, sans-serif',
   }
 }
 
