@@ -7,10 +7,10 @@ export default function WideCard(props) {
             flexWrap: 'wrap',
             alignItems: 'center',
             justifyContent: 'center',
-            padding: 20,
+            padding: 0,
             height: 'auto',
             width: '100%',
-            backgroundColor: 'rgb(250,250,250)',
+            backgroundColor: 'rgb(255,255,255)',
         }}>
             <div style={{
                 backgroundColor: 'transparent',
@@ -19,6 +19,7 @@ export default function WideCard(props) {
                 justifyContent: 'space-around',
                 height: 'auto',
                 width: '80%',
+                marginTop: 15,
             }}>
                 {props.children}
             </div>
