@@ -5,7 +5,15 @@ export default function OrderPage() {
     return (
         <>
             <NavBar />
-            <h1>hello order page</h1>
+            <main style={{
+                fontFamily: 'Almarai, sans-serif',
+                textAlign: 'right',
+                border: '1px solid black',
+                width: '100%',
+            }}>
+                <h1 style={{ color: 'black', }}>اطلب تصميم الان</h1>
+
+            </main>
             <Footer />
         </>
     )

@@ -10,6 +10,14 @@ a {
   color: #471601;
 }
 
+.order-card {
+  background-color: #ffffff;
+  height: 400px;
+  width: 200px;
+  border: 5px solid rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
 .footer {
   background-color: #293346;
   height: 200px;
