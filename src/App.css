@@ -10,10 +10,32 @@ a {
   color: #471601;
 }
 
+.footer {
+  background-color: #293346;
+  height: 200px;
+  width: 100%;
+  margin-top: 80px;
+  display: 'flex';
+  justify-content: center;
+  align-items: 'center';
+}
+
+.descriptive-text {
+  font-size: 45px;
+  margin-bottom: 0;
+  color: '#471601';
+}
+
 a:hover {
   color: orange;
   text-decoration: underline;
 }
+
+.clickable-img:hover {
+  cursor: pointer;
+  color: red;
+}
+
 
 .order-button {
   color: white;
